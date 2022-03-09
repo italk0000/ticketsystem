@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketSystem.Api</name>
+    </assembly>
+    <members>
+        <member name="M:TicketSystem.Controllers.AccountController.Login(TicketSystem.Common.Models.Request.LoginRequest)">
+            <summary>
+            Login
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TicketSystem.Controllers.AccountController.Post(TicketSystem.Common.Models.Request.CreateUserRequest)">
+            <summary>
+            Create User
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TicketSystem.Api.Controllers.IssueController.Get(System.Int32)">
+            <summary>
+            以ID查詢
+            </summary>
+            <param name="issueID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TicketSystem.Api.Controllers.IssueController.Post(TicketSystem.Common.Models.Request.CreateIssueRequest)">
+            <summary>
+            開單
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TicketSystem.Api.Controllers.IssueController.Put(TicketSystem.Common.Models.Request.UpdateIssueRequest)">
+            <summary>
+            修改
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TicketSystem.Api.Controllers.IssueController.Delete(System.Int32)">
+            <summary>
+            刪除
+            </summary>
+            <param name="issueID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TicketSystem.Api.Controllers.IssueController.UpdateStatus(TicketSystem.Common.Models.Request.UpdateIssueStatusRequest)">
+            <summary>
+            更新狀態
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
